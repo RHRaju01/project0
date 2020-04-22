@@ -26,7 +26,6 @@ a {
     display: inline-block;
     color: black;
     background-color: white;
-    padding: 3px;
 }
 a:active {
     color: darkblue;
