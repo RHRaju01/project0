@@ -79,3 +79,8 @@ p, li {
         margin: 10px;
     }
 }
+@media (max-width: 492px) {
+    .nav-ul li {
+        display: none;
+    }
+}
