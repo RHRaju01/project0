@@ -120,7 +120,9 @@ th, td {
 p, li {
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer {
+.wrapper {
+    text-align: center;
+    display: grid;
     background-color: lightblue;
     height: 150px;
     margin-top: 25px;
