@@ -228,6 +228,11 @@ li {
         margin-left: 10px;
     }
 }
+@media (min-width: 493px) {
+    .bimg {
+        width: 100%;
+    }
+}
 @media (max-width: 492px) {
     .nav-ul li {
         display: block;
