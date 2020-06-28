@@ -228,8 +228,8 @@ li {
         margin-left: 10px;
     }
 }
-@media (min-width: 493px) {
-    .bimg {
+@media (min-width: 493px) and (max-width: 799px) {
+    .img {
         width: 100%;
     }
 }
