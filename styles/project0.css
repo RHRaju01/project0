@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
 body {
     margin: 0;
 }
@@ -20,14 +22,13 @@ body {
     padding: 0 10px;
     font-weight: bold;
 }
-a {
+.navbar a {
     text-decoration: none;
     color: hotpink;
 }
 .navbar a:hover {
     display: inline-block;
     color: black;
-    background-color: white;
 }
 .navbar a:active {
     color: green;
@@ -79,7 +80,7 @@ th, td {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.box-top h4 {
+.box-top h3 {
     text-align: center;
 }
 .box-middle {
@@ -89,6 +90,27 @@ th, td {
     border: 1px solid rgb(226, 220, 220);
     width: 500px;
     height: 400px;
+}
+.countries {
+    padding-top: 20px;
+}
+.countries > .confirmed {
+    padding-left: 5px;
+}
+.countries > .recovered {
+    padding-left: 5px;
+}
+.countries > .deaths {
+    padding-left: 5px;
+}
+.wor > .confirmed {
+    padding-left: 5px;
+}
+.world > .recovered {
+    padding-left: 5px;
+}
+.world > .deaths {
+    padding-left: 5px;
 }
 .box-bottom {
     display: block;
@@ -117,15 +139,41 @@ th, td {
     height: auto;
     width: 300px;
 }
-p, li {
+p {
+    font-family: 'Adamina', serif;
+}
+li {
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
     text-align: center;
     display: grid;
     background-color: lightblue;
-    height: 150px;
-    margin-top: 25px;
+    height: 170px;
+    margin-top: 30px;
+    font-family: 'Playball', cursive;
+}
+.description {
+    padding-top: 10px;
+}
+.description a {
+    color: black;
+}
+.social img {
+    height: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.contact img {
+    height: 20px;
+    padding-right: 5px;
+}
+.contact a {
+    color: rgb(122, 117, 117);
+    text-decoration: none;
+}
+.contact a:hover {
+    color: black;
 }
 /* Media Queries */
 @media (min-width: 1500px) {
@@ -155,6 +203,14 @@ p, li {
         margin-right: auto;
         width: 80vw;
     }
+    p {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 801px) {
+    p {
+        margin-left: 10px;
+    }
 }
 @media (max-width: 800px) {
     .main-body {
@@ -167,6 +223,9 @@ p, li {
     .caption {
         text-align: center;
         padding: 10px 0;
+    }
+    p {
+        margin-left: 10px;
     }
 }
 @media (max-width: 492px) {
@@ -210,5 +269,8 @@ p, li {
     }
     .box > div > img {
         width: 100%;
+    }
+    table {
+        margin: 5px;
     }
 }
