@@ -220,7 +220,8 @@ li {
         padding: 10px 0;
     }
     p {
-        margin-left: 10px;
+        padding-left: 8px;
+        padding-right: 2px;
     }
 }
 @media (min-width: 493px)  {
@@ -250,8 +251,6 @@ li {
         text-align: center;
         padding: 10px 0;
     }
-    .paragraphs {
-        margin: 20px 5px 0 5px ;
     }
     .box-top, .box-middle, .box-bottom {
         width: 100%;
